@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fase 2</title>
-</head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+<head>
 <body>
-    <head>
+    <header class="encabezado">
         <h1>
             APRENDIENDO ETIQUETAS Y ATRIBUTOS HTML
         </h1>
-    </head>
-    <nav>
+    </header>
+    <nav class="navegacion">
         <ul>
-            <li>Inicio</li>
+            <li><a href="index.html">Inicio</a></li>
             <li>Temas</li>
                 <ul>
                     <li>Tema 1</li>
@@ -29,12 +31,8 @@
             <li>Acerca de</li>
         </ul>
     </nav>
-    <section>
-        <h2>Proposito del sitio</h2>
-        <p>
-            El proposito de este sito es facilitar el aprendizaje y brindarle a los estudiantes 
-            y los docentes las herramientas didácticas para el proceso de enseñanza y aprendizaje.
-        </p>
+    <main class="contenedor">
+        <section class="principal">
         <article>
             <h2>Etiquetas Básicas de HTML</h2>
 
@@ -79,51 +77,15 @@
 
 
             </p>
+        </section>
+        <aside class="lateral">
+            <a class="twitter-timeline" data-height="800" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
 
-        </article>
-
-        <article>
-            <h2>Atributos  y Valores HTML</h2>
-
-            <p>Los atributos en HTML se pueden considerar como información adicional que se coloca siempre en la etiqueta de apertura, esto para añadir, complementar información o significado al elemento HTML al que estamos colocando.
-
-                ¡Venga ya! agreguemos un poco información y estilo a nuestro contenido. Todas las etiquetas de HTML y sus atributos.
-                
-                ¡Antes! Debo mencionar que para poner estilo a una página web, definitivamente es mucho mejor utilizar el lenguaje de estilos CSS, pero no está de más aprender a utilizar algunos estilos en HTML, podemos necesitar en algún momento.</p>
-                
-                <h4>Los atributos HTML van siempre dentro de la etiqueta de apertura y sirven para modificar o agregar alguna característica al contenido</h4>
-
-                <h3>Lista de los atributos más usados en HTML</h3>
-
-                <p>Id =” ”: Para identificar un elemento único</p>
-
-                <p>class =” ”: Identificador múltiple.</p>
-
-                <p>align =” ”: Alineación de contenido.</p>
-
-                <p>border =” ”: Para darle borde al contenido.</p>
-
-                <p>style =” ”: Para darle un estilo al contenido.</p>
-
-                <p>background-color =” ”: Para color de fondo.</p>
-                
-                <p>href =” ”: Para enlaces html.</p>
-
-                <p>height =” ”: Para determinar altura.</p>
-
-                <p>width =” ”: Para determinar ancho.</p>
-
-                <p>src=“ ”: Para imágenes.</p>
-        </article>
-        <h3>Mockup</h3>
-        <img src="Imagenes/Mockup.drawio.png" alt="Mockup">
-    </section>
-
-
-
-    <footer>
+    </main>
+    <footer class="pie">
         <p>Skype:yetriana25</p>
         <p>email:ytrianaf@unadvirtual.edu.co</p>
     </footer>
-</body>
-</html>
+<body>
+<html>
