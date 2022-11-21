@@ -1,0 +1,67 @@
+.encabezado{
+    background-color: #EA047E;
+    padding: 30px;
+}
+.navegacion{
+    background-color: #FF6D28;
+    padding: 30px;
+}
+.contenedor{
+    background-color: #FCE700;
+    padding: 30px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+}
+.principal{
+    background-color: blanchedalmond;
+    padding: 30px;
+    grid-column: 1/4;
+}
+.lateral{
+    background-color: #00F5FF;
+    padding: 30px;
+    grid-column: 4/5;
+}
+.pie{
+    background-color: cornflowerblue;
+    padding: 30px;
+}
+.navegacion{
+    padding: 0px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.navegacion>li{
+    float: left;
+}
+.navegacion li a{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 80px;
+    display: block;
+}
+.navegacion li a:hover{
+    background-color: chocolate;
+}
+.navegacion li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+.navegacion li:hover > ul{
+    display: block;
+}
+.navegacion li ul li{
+    position: relative;
+}
+.navegacion li ul li ul{
+    right: 140px;
+}
